@@ -711,6 +711,7 @@ financial-qa-system/
         └── api.ts                      # SSE 客户端（routing/status/text/sources）+ 会话 CRUD + apiFetch
 ```
 优化与扩展思考
+
 性能优化
 
 路由准确率 vs. 成本权衡： 当前 regex 预过滤处理约 60-70% 的查询（零成本），剩余 30-40% 走 Claude 分类（~$0.002/次）。一个轻量级本地分类器（微调 DistilBERT，~5MB）可以将 regex 未命中率降到 10% 以下，但增加了模型服务复杂度。仅在日查询量 >1000 时值得引入。
