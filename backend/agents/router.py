@@ -15,7 +15,9 @@ from prompts.router import ROUTER_SYSTEM, ROUTER_TOOLS
 logger = logging.getLogger("router")
 
 _KNOWLEDGE_PATTERNS = re.compile(
-    r"(什么是|怎么算|怎么用|怎么看|怎么理解|怎么分析|如何|解释|定义|区别|概念|原理|意思|"
+    r"(什么是|怎么算|怎么用|怎么看|怎么理解|怎么分析|"
+    r"如何理解|如何计算|如何分析|如何阅读|如何使用|如何评估|" 
+    r"解释|定义|区别|概念|原理|意思|"
     r"财报|季报|年报|业绩|营收|净利|利润表|资产负债|现金流|"
     r"what\s+is|explain|define|difference|how\s+does|how\s+to|meaning\s+of|"
     r"earnings|quarterly|annual\s+report|revenue|income\s+statement|balance\s+sheet)",

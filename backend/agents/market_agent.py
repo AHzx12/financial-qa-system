@@ -153,10 +153,12 @@ async def handle_market_query(
         },
         "news_status": news_result.get("status", "unknown"),
     }
-    if news_articles:
+    if news_articles and query_complexity == "detailed":
         sources["news"] = [
             {"title": a["title"], "publisher": a["publisher"], "time": a["publish_time"]}
             for a in news_articles[:3]
         ]
+    elif news_result.get("web_search_summary") and query_complexity == "detailed":
+        sources["news"] = [{"title": "Web search results (Claude)", "publisher": "Web Search", "time": ""}]
     yield {"type": "sources", "content": sources}
 
