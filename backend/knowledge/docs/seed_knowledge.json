@@ -1,0 +1,102 @@
+[
+  {
+    "id": "concept_pe_ratio",
+    "content": "市盈率（P/E Ratio，Price-to-Earnings Ratio）是衡量一家公司股票价格相对于其每股收益（EPS）的估值指标。计算公式：P/E = 股价 / 每股收益（EPS）。市盈率可分为两种：静态市盈率（TTM，Trailing Twelve Months）基于过去12个月实际收益计算；动态市盈率（Forward P/E）基于分析师对未来12个月收益的预测。高市盈率（如30-50倍）通常出现在高增长行业（科技股），意味着市场对公司未来增长抱有较高预期；低市盈率（如5-15倍）常见于成熟行业（银行、公用事业），可能表示股票被低估或增长预期有限。使用市盈率时应注意：同行业公司之间比较才有意义，亏损公司没有有效的市盈率，周期性行业的市盈率会随经济周期大幅波动。",
+    "metadata": {"source": "financial_glossary", "topic": "valuation", "category": "concept"}
+  },
+  {
+    "id": "concept_market_cap",
+    "content": "市值（Market Capitalization）是衡量上市公司总体规模的核心指标。计算公式：市值 = 当前股价 × 总流通股数。按市值大小通常分为：大盘股（Large Cap，>$100亿），代表成熟稳定企业；中盘股（Mid Cap，$20-100亿），兼具成长性和稳定性；小盘股（Small Cap，$3-20亿），波动性较高但增长潜力更大；微盘股（Micro Cap，<$3亿），风险最高。市值不等于公司的实际价值，它只反映市场对公司未来现金流的预期。市值受股价波动影响会实时变化，同一家公司在不同市场情绪下市值可能差距很大。",
+    "metadata": {"source": "financial_glossary", "topic": "fundamentals", "category": "concept"}
+  },
+  {
+    "id": "concept_revenue_vs_profit",
+    "content": "收入（Revenue / 营业收入）和净利润（Net Income / 净利）是理解公司经营状况的两个最基础的财务指标。收入（Top Line）：公司在特定期间通过销售产品或提供服务获得的总金额，位于利润表的最顶端。净利润（Bottom Line）：扣除所有成本和费用后的最终利润，位于利润表的最底端。计算关系：净利润 = 收入 - 营业成本(COGS) - 运营费用(SG&A) - 折旧摊销 - 利息支出 - 所得税。净利润率 = 净利润 / 收入 × 100%，是衡量公司盈利效率的关键指标。举例说明：亚马逊早期收入增长极快但净利润极低甚至亏损，因为它将大部分收入再投入业务扩张；而苹果则保持着约25%的高净利润率，说明其产品定价能力和成本控制能力很强。投资者通常同时关注收入增长率（是否在扩大业务）和利润率变化趋势（是否在改善盈利）。",
+    "metadata": {"source": "financial_glossary", "topic": "fundamentals", "category": "concept"}
+  },
+  {
+    "id": "concept_eps",
+    "content": "每股收益（EPS，Earnings Per Share）表示公司每一股普通股对应的净利润。基本EPS = (净利润 - 优先股股息) / 加权平均流通股数。稀释EPS（Diluted EPS）还考虑了可转换债券、股票期权等可能增加股数的潜在稀释因素，通常低于基本EPS。EPS是计算市盈率(P/E)的基础，也是财报中最受关注的指标之一。公司每季度发布财报时，分析师会将实际EPS与预期EPS（Consensus Estimate）对比：超过预期叫做beat（超预期），低于预期叫做miss（不及预期）。Beat/Miss往往会导致股价在盘后大幅波动。",
+    "metadata": {"source": "financial_glossary", "topic": "fundamentals", "category": "concept"}
+  },
+  {
+    "id": "concept_dividend",
+    "content": "股息（Dividend）是公司将部分利润直接分配给股东的回报方式。股息收益率 = 每股年度股息 / 当前股价 × 100%。发放股息的公司通常是盈利稳定的成熟企业（如可口可乐、宝洁）。高成长公司（如亚马逊、特斯拉）通常不发股息，选择将利润再投入业务增长。重要日期：除息日（Ex-Dividend Date），在此日期之后买入的股东不享受本次股息；记录日（Record Date），确认持股股东名单；支付日（Payment Date），实际发放股息。「股息贵族」（Dividend Aristocrats）是指连续25年以上增加股息的标普500成分股，被视为优质长期投资标的。",
+    "metadata": {"source": "financial_glossary", "topic": "income", "category": "concept"}
+  },
+  {
+    "id": "concept_etf",
+    "content": "交易所交易基金（ETF，Exchange-Traded Fund）是一种在证券交易所上市交易的投资基金，像股票一样可以在交易时段内随时买卖。ETF通常跟踪特定指数、行业、商品或资产类别。与共同基金对比：ETF费率更低（通常0.03%-0.5% vs 0.5%-1.5%），交易更灵活（实时交易 vs 每日收盘价），税务效率更高。常见ETF类型：指数ETF（SPY跟踪标普500，QQQ跟踪纳斯达克100），行业ETF（XLK科技板块，XLF金融板块），国际ETF（VWO新兴市场），债券ETF（BND总债券市场），商品ETF（GLD黄金）。对于初学者，宽基指数ETF（如VOO或VTI）是最推荐的起步投资工具，因为它自动实现了分散化投资。",
+    "metadata": {"source": "financial_glossary", "topic": "investment_vehicles", "category": "concept"}
+  },
+  {
+    "id": "concept_bull_bear",
+    "content": "牛市（Bull Market）和熊市（Bear Market）是描述市场整体趋势的术语。牛市：主要指数从近期低点上涨20%以上，通常持续数月至数年。特征：经济扩张、企业盈利增长、投资者信心强。熊市：主要指数从近期高点下跌20%以上。特征：经济收缩或衰退预期、企业盈利下滑、投资者避险情绪浓厚。市场修正（Correction）：下跌10%-20%之间的调整，属于市场正常波动，不一定演变为熊市。历史数据：标普500自1950年以来经历了约10次熊市，平均持续约14个月，平均跌幅约33%；而牛市平均持续约5年，平均涨幅约180%。长期来看，牛市持续时间远长于熊市。",
+    "metadata": {"source": "financial_glossary", "topic": "market_concepts", "category": "concept"}
+  },
+  {
+    "id": "concept_moving_average",
+    "content": "移动平均线（Moving Average, MA）是技术分析中最基础也最常用的指标。简单移动平均线（SMA）= 过去N天收盘价的算术平均值。指数移动平均线（EMA）给予近期数据更大权重，对价格变化更敏感。常用周期：5日线（MA5，反映一周趋势），20日线（MA20，反映一个月趋势），50日线（MA50，中期趋势），200日线（MA200，长期趋势，机构投资者最关注）。关键信号：金叉（Golden Cross）：短期均线上穿长期均线（如MA50上穿MA200），通常视为看涨信号。死叉（Death Cross）：短期均线下穿长期均线，通常视为看跌信号。注意：移动平均线是滞后指标，它反映的是已经发生的价格变化，不能预测未来。",
+    "metadata": {"source": "financial_glossary", "topic": "technical_analysis", "category": "concept"}
+  },
+  {
+    "id": "analysis_balance_sheet",
+    "content": "资产负债表（Balance Sheet）分析是评估公司财务健康状况的核心方法。基本等式：资产 = 负债 + 股东权益。资产分为流动资产（现金、应收账款、存货，1年内可变现）和非流动资产（固定资产、无形资产、商誉）。负债分为流动负债（应付账款、短期借款，1年内到期）和长期负债（长期贷款、公司债券）。关键分析比率：流动比率（Current Ratio）= 流动资产/流动负债，>2为优秀，<1有偿债风险；速动比率（Quick Ratio）= (流动资产-存货)/流动负债，更严格的短期偿债能力指标；资产负债率 = 总负债/总资产，衡量财务杠杆，行业差异大（银行业通常>90%，科技公司通常<50%）。阅读资产负债表时重点关注：现金及等价物是否充足、应收账款是否异常增长（可能意味着收入质量下降）、商誉是否过高（可能面临减值风险）。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "financial_statements", "category": "analysis"}
+  },
+  {
+    "id": "analysis_income_statement",
+    "content": "利润表（Income Statement）分析帮助投资者理解公司的盈利能力和盈利质量。核心结构从上到下：营业收入（Revenue）→ 减去营业成本（COGS）→ 毛利润（Gross Profit）→ 减去运营费用（研发费用R&D + 销售管理费用SG&A）→ 运营利润（Operating Income / EBIT）→ 减去利息和税收 → 净利润（Net Income）。关键利润率指标：毛利率 = 毛利润/收入，反映产品定价能力和成本控制（苹果约44%，沃尔玛约24%）；运营利润率 = 运营利润/收入，反映核心业务盈利效率；净利润率 = 净利润/收入，反映最终盈利水平。分析时重点关注趋势变化：毛利率下降可能意味着竞争加剧或成本上升；运营费用占比上升可能说明效率下降或处于投入期。另外要关注非经常性损益（一次性收益或减值）对净利润的影响。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "financial_statements", "category": "analysis"}
+  },
+  {
+    "id": "analysis_cash_flow",
+    "content": "现金流量表（Cash Flow Statement）被认为是三张财务报表中最难造假的一张。它分为三部分：经营活动现金流（Operating Cash Flow, OCF）：核心业务产生的现金。健康公司的OCF应该持续为正且大于净利润（因为折旧等非现金费用会做加回）。如果净利润很高但经营现金流很低，需要警惕——可能是应收账款大量增加但实际没收到钱。投资活动现金流（Investing Cash Flow）：通常为负，代表公司在购买设备、收购等方面的投入。自由现金流（FCF）= 经营现金流 - 资本支出（CapEx），是衡量公司真正可支配现金的核心指标。筹资活动现金流（Financing Cash Flow）：包括借款、还款、发行股票、回购股票、支付股息等。投资者最关注的是自由现金流，因为它代表公司在维持运营后真正能自由支配的钱——可以用来分红、回购、偿债或再投资。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "financial_statements", "category": "analysis"}
+  },
+  {
+    "id": "analysis_valuation_methods",
+    "content": "公司估值的常用方法有三种：1) 相对估值法：通过比较同行业公司的估值倍数来判断目标公司是否被高估或低估。常用指标包括P/E（市盈率）、P/S（市销率，适合亏损公司）、P/B（市净率，适合金融和重资产行业）、EV/EBITDA（企业价值/息税折旧摊销前利润，消除资本结构差异）。2) 绝对估值法/DCF：折现现金流模型，将公司未来所有自由现金流折现到今天。核心假设包括未来增长率和折现率（WACC），对假设非常敏感。3) 资产基础法：按净资产（总资产-总负债）估值，主要用于清算价值评估或重资产行业。实际分析中通常多种方法结合使用，取交叉验证的结果。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "valuation", "category": "analysis"}
+  },
+  {
+    "id": "analysis_risk_management",
+    "content": "投资风险管理是长期投资成功的关键。主要风险类型：市场风险（系统性风险，影响整个市场的因素如利率、通胀、地缘政治）、非系统性风险（个股特有风险，如管理层变动、产品失败，可通过分散化降低）、流动性风险（无法快速以合理价格卖出）。核心风险管理策略：分散化投资（Diversification）——不同资产类别、不同行业、不同地区；仓位管理——单只股票一般不超过总仓位的5-10%；止损策略——设定最大可接受亏损（如8-10%），到达自动卖出；定投策略（DCA, Dollar Cost Averaging）——定期定额买入，平滑买入成本。衡量风险的指标：波动率（Volatility），Beta值（相对市场的波动幅度），最大回撤（Max Drawdown），夏普比率（Sharpe Ratio = 超额收益/波动率，越高越好）。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "risk", "category": "analysis"}
+  },
+  {
+    "id": "analysis_reading_earnings",
+    "content": "如何阅读公司财报（季度/年度报告）：上市公司每季度发布10-Q报告（季报），每年发布10-K报告（年报），这些在SEC的EDGAR系统中可以免费查阅。财报核心关注点：1) 收入增长率——是否符合或超过市场预期（Consensus Estimate），同比增长还是环比增长；2) 每股收益(EPS)——是否beat估值，beat/miss的幅度；3) 指引(Guidance)——管理层对下一季度/全年的营收和利润预期，往往比当期数据更影响股价；4) 毛利率变化——是在改善还是恶化；5) 经营现金流——是否健康，是否与净利润匹配；6) 管理层电话会议(Earnings Call)——关注管理层对业务展望的措辞，特别是对「不确定性」的描述。财报分析的关键是看趋势，不是看绝对数字——连续3个季度的毛利率下降比单季度低于预期更值得警惕。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "financial_statements", "category": "analysis"}
+  },
+  {
+    "id": "concept_options_basics",
+    "content": "期权（Options）基础知识：期权是一种金融衍生品，赋予持有人在特定日期前以特定价格买入或卖出标的资产的权利（而非义务）。看涨期权（Call Option）：持有人有权以行权价买入股票。当你看好某只股票会上涨时买入Call。看跌期权（Put Option）：持有人有权以行权价卖出股票。当你看空或想对冲下跌风险时买入Put。关键术语：行权价（Strike Price）、到期日（Expiration Date）、权利金（Premium，即期权价格）、内在价值（Intrinsic Value）、时间价值（Time Value）。期权定价受多种因素影响：标的价格、行权价、到期时间、波动率（Implied Volatility, IV）、利率。期权风险极高，买方最大亏损为权利金，但卖方（writer）面临潜在无限亏损。初学者应充分了解风险后再参与期权交易。",
+    "metadata": {"source": "financial_glossary", "topic": "derivatives", "category": "concept"}
+  },
+  {
+    "id": "concept_bond_basics",
+    "content": "债券（Bond）基础知识：债券是一种固定收益证券，本质上是投资者借钱给发行方（政府或公司），发行方承诺定期支付利息（票息, Coupon）并在到期日归还本金（面值, Face Value / Par Value，通常为$1000）。关键术语：票息率（Coupon Rate）= 年度票息/面值；到期收益率（YTM, Yield to Maturity）考虑了当前价格、票息和到期时间的综合收益率；久期（Duration）衡量债券价格对利率变化的敏感度。债券价格与利率成反比关系：利率上升 → 债券价格下跌；利率下降 → 债券价格上涨。信用评级：AAA/AA（最安全，收益率低），BBB及以上为投资级，BB及以下为高收益债（垃圾债）。常见类型：国债（Treasury，最安全）、公司债（Corporate Bond）、市政债（Municipal Bond，通常免税）。",
+    "metadata": {"source": "financial_glossary", "topic": "fixed_income", "category": "concept"}
+  },
+  {
+    "id": "concept_inflation_interest_rate",
+    "content": "通货膨胀（Inflation）与利率（Interest Rate）是理解宏观经济和市场走向的两个核心概念。通胀是指商品和服务的总体价格水平持续上升。主要衡量指标：CPI（消费者价格指数），PPI（生产者价格指数），PCE（个人消费支出价格指数，美联储首选指标）。美联储的目标通胀率为2%。当通胀过高时，美联储会加息（提高联邦基金利率）来抑制经济过热。加息对市场的影响链条：利率上升 → 借贷成本增加 → 企业利润承压 + 消费减少 → 经济增速放缓 → 通胀回落。对股市：加息通常利空成长股（未来现金流折现价值降低），利好银行等金融股（净息差扩大）。对债市：利率上升时债券价格下跌。2022-2023年美联储激进加息周期就是典型案例。",
+    "metadata": {"source": "financial_glossary", "topic": "macroeconomics", "category": "concept"}
+  },
+  {
+    "id": "concept_short_selling",
+    "content": "做空（Short Selling）是指投资者借入股票并立即卖出，期望在价格下跌后以更低的价格买回归还，从中赚取差价。做空流程：从券商处借入股票 → 在市场上卖出 → 等待股价下跌 → 买回股票归还 → 差价即为利润。做空风险极大：股票上涨没有上限，因此做空的潜在亏损是无限的，而做多（买入）最多亏损100%。做空挤压（Short Squeeze）：当大量做空者同时被迫平仓买入时，会推动股价急剧上涨，造成踩踏效应。2021年的GameStop（GME）事件就是经典的做空挤压案例。做空指标：做空比率（Short Interest Ratio）= 被做空股数/日均成交量，反映了平仓需要的天数。>10天被认为做空比率很高。",
+    "metadata": {"source": "financial_glossary", "topic": "trading_strategies", "category": "concept"}
+  },
+  {
+    "id": "analysis_sector_rotation",
+    "content": "行业轮动（Sector Rotation）是指在经济周期的不同阶段，资金在各个行业之间流动的现象。经济周期四阶段与领先行业：1) 复苏早期：利率下降、经济触底。领先行业：金融（受益于信贷扩张）、消费可选（消费者信心恢复）。2) 扩张中期：经济增长加速。领先行业：科技（企业增加IT投资）、工业（产能扩张）。3) 扩张晚期/过热：通胀上升、利率上升。领先行业：能源（大宗商品涨价）、材料（原材料需求旺盛）。4) 衰退期：经济收缩。领先行业：公用事业（稳定现金流）、医疗保健（非周期性需求）、消费必需品（刚需）。这种轮动规律不是绝对的，但为投资者提供了宏观配置的参考框架。标普500的11个GICS行业板块分别是：信息技术、医疗保健、金融、非必需消费、通讯服务、工业、必需消费品、能源、公用事业、房地产、材料。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "macroeconomics", "category": "analysis"}
+  },
+  {
+    "id": "analysis_technical_patterns",
+    "content": "常见技术分析形态：1) 支撑位（Support）和阻力位（Resistance）：股价多次在某个价位附近反弹即形成支撑，多次在某价位受阻即形成阻力。一旦突破阻力位，该位置往往转变为新的支撑位。2) 头肩顶（Head and Shoulders）：典型的趋势反转形态，由左肩、头（最高点）、右肩组成。颈线被跌破时确认反转。3) 双底（Double Bottom）/双顶（Double Top）：W形或M形反转形态。4) 成交量确认：有效的突破应该伴随成交量放大，没有量配合的突破可能是假突破。5) RSI（相对强弱指标）：>70为超买区，<30为超卖区。6) MACD（移动平均收敛/发散）：由快线（12日EMA-26日EMA）和慢线（9日EMA信号线）组成，金叉看涨、死叉看跌。重要提醒：技术分析不是预测工具，而是概率工具。没有任何技术指标能100%准确预测走势。",
+    "metadata": {"source": "financial_analysis_guide", "topic": "technical_analysis", "category": "analysis"}
+  }
+]
