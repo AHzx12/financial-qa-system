@@ -359,13 +359,6 @@ financial-qa-system/
         └── api.ts                      # SSE client (routing/status/text/sources) + session CRUD + apiFetch
 ```
 
-## Future Extensions
-
-- Interactive candlestick charts (recharts / lightweight-charts)
-- WebSocket upgrade for bidirectional real-time updates
-- User authentication with personalized watchlists
-- Multi-worker deployment with Redis replacing in-process caches
-
 ---
 
 # 中文
@@ -717,10 +710,3 @@ financial-qa-system/
     └── lib/
         └── api.ts                      # SSE 客户端（routing/status/text/sources）+ 会话 CRUD + apiFetch
 ```
-
-## 后续扩展方向
-
-- 交互式 K 线图（recharts / lightweight-charts）
-- WebSocket 升级（双向实时通信）
-- 用户认证 + 个人自选股列表
-- 多 Worker 部署时用 Redis 替换进程内缓存
