@@ -12,24 +12,24 @@
 
 ```
 ┌────────────────────────────────────────────────────────┐
-│                    Next.js Frontend                     │
-│       Chat UI · Markdown · SSE Streaming · Sources      │
+│                    Next.js Frontend                    │
+│       Chat UI · Markdown · SSE Streaming · Sources     │
 └───────────────────────┬────────────────────────────────┘
                         │  POST /chat (SSE)
 ┌───────────────────────▼────────────────────────────────┐
-│                    FastAPI Backend                       │
-│  /chat · /health · /sessions CRUD · Rate Limiting       │
-│  Dual-mode history: session_id → Redis/PG | inline      │
+│                    FastAPI Backend                     │
+│  /chat · /health · /sessions CRUD · Rate Limiting      │
+│  Dual-mode history: session_id → Redis/PG | inline     │
 └──────┬────────────────┬──────────────────┬─────────────┘
        │                │                  │
   ┌────▼─────┐   ┌──────▼──────┐    ┌─────▼───────────┐
-  │  Redis   │   │ PostgreSQL  │    │  Query Router    │
-  │ Session  │   │  Messages   │    │ Tier 0: regex    │
-  │  Cache   │   │ Persistent  │    │  (multi-ticker)  │
-  │ 30m TTL  │   │   History   │    │ Tier 1: regex    │
-  └──────────┘   └─────────────┘    │  (single-agent)  │
-                                    │ Tier 2: Claude   │
-                                    │  (tool_use)      │
+  │  Redis   │   │ PostgreSQL  │    │  Query Router   │
+  │ Session  │   │  Messages   │    │ Tier 0: regex   │
+  │  Cache   │   │ Persistent  │    │  (multi-ticker) │
+  │ 30m TTL  │   │   History   │    │ Tier 1: regex   │
+  └──────────┘   └─────────────┘    │  (single-agent) │
+                                    │ Tier 2: Claude  │
+                                    │  (tool_use)     │
                                     └─────┬───────────┘
                            ┌──────────────┼──────────────┐
                            │              │              │
@@ -378,29 +378,29 @@ financial-qa-system/
        │                │                  │
   ┌────▼─────┐   ┌──────▼──────┐    ┌─────▼──────────┐
   │  Redis   │   │ PostgreSQL  │    │    查询路由     │
-  │ 会话缓存 │   │  消息持久化 │    │ Tier 0: regex  │
-  │ 30分钟TTL│   │   完整历史  │    │ (多ticker检测) │
+  │ 会话缓存  │    │  消息持久化  │    │ Tier 0: regex  │
+  │ 30分钟TTL │   │   完整历史   │    │ (多ticker检测)  │
   └──────────┘   └─────────────┘    │ Tier 1: regex  │
-                                    │ (单agent分类)  │
+                                    │ (单agent分类)   │
                                     │ Tier 2: Claude │
-                                    │ (tool_use兜底) │
+                                    │ (tool_use兜底)  │
                                     └─────┬──────────┘
                            ┌──────────────┼──────────────┐
                            │              │              │
                     ┌──────▼───┐   ┌──────▼───┐   ┌─────▼────┐
-                    │ 行情Agent│   │ RAG Agent│   │通用Agent │
+                    │ 行情Agent │   │ RAG Agent│  │通用Agent │
                     └──┬───┬───┘   └──┬───┬───┘   └──────────┘
                        │   │          │   │
                  ┌─────▼┐ ┌▼────┐ ┌──▼──┐┌▼──────┐
-                 │Yahoo │ │新闻 │ │向量 ││实时数据│
-                 │Fin.  │ │服务 │ │检索 ││  补充  │
+                 │Yahoo │ │ 新闻 │ │向量 ││实时数据 │
+                 │Fin.  │ │ 服务 │ │检索 ││  补充  │
                  └──────┘ └─────┘ └─────┘└───────┘
                            │
                     ┌──────▼──────┐
                     │  Supervisor │
-                    │ (复合查询)  │
-                    │ 并行收集数据│
-                    │ → 合成器LLM│
+                    │  (复合查询)  │
+                    │ 并行收集数据  │
+                    │ → 合成器LLM  │
                     └─────────────┘
 ```
 
